@@ -23,6 +23,10 @@ class Students
       self.new_from_db(row)
   end
   
-  def self.all_
+  def self.all_tudents_in_grade_9
+  
+  end
+  
+  def self.
   
 end
