@@ -31,7 +31,7 @@ class Students
   
   end
   
-  def self.first_X_students_in_grade_10
+  def self.first_X_students_in_grade_10(total_gr10_students)
   
   end
   
@@ -39,6 +39,7 @@ class Students
   
   end
   
-  def self.
+  def self.all_students_in_grade_X(grade)
   
+  end 
 end
