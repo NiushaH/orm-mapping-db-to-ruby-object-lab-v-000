@@ -68,7 +68,7 @@ class Student
     sql = <<-SQL
       SELECT *
       FROM students
-      WHERE name = ?
+      WHERE student_name = ?
       LIMIT 1
     SQL
  
