@@ -1,4 +1,4 @@
-class Student
+class Students
   attr_accessor :id, :name, :grade
 
   def save
