@@ -9,11 +9,11 @@ class Students
     new_student
   end
   
-  def self.find_by_name
-    
+  def self.find_by_name(student_name)
+    self.all.select { |s| s.name.include?(student_name)}
   end
   
   def self.all
-  
+    @@all
   end
 end
